@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/book_logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textSize="45sp"
+        app:fontFamily="@font/bangers"/>
+
+    <Button
+        android:id="@+id/getStartedMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/GetStarted"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:padding="20dp"
+        android:fontFamily="@font/amatica_sc"
+        android:textStyle="bold"/>
+
+</LinearLayout>

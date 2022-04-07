@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#009688</color>
+    <color name="top">#758184</color>
+    <color name="center">#FFAD87</color>
+    <color name="bottom">#FA877F</color>
+    <color name="GetStarted">#C23B22</color>
+    <color name="mainButton">#C23A22</color>
+    <color name="secondaryButton">#E54C38</color>
+</resources>
